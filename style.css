@@ -15,3 +15,12 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 @import url( ../twentyfifteen/style.css );
+
+/**
+* Automatically hide the site-title if site-logo is added
+* Note: you can replace the important tag with more specific selector
+*/
+body.has-site-logo .site-description,
+body.has-site-logo .site-title{
+	display: none !important; 
+}
